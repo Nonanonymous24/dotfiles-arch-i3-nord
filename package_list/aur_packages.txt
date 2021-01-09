@@ -27,3 +27,4 @@ zscroll-git
 aurafetch-git
 cli-visualizer
 fet.sh-git
+cava

@@ -24,5 +24,6 @@ tty-clock
 waffle
 yay
 zscroll-git
-cli-visualizer
 aurafetch-git
+cli-visualizer
+fortune-mod-brooklyn-nine-nine

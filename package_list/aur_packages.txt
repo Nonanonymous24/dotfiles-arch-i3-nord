@@ -26,4 +26,4 @@ yay
 zscroll-git
 aurafetch-git
 cli-visualizer
-fortune-mod-brooklyn-nine-nine
+fet.sh-git

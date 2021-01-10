@@ -66,6 +66,12 @@ Plugin 'lyuts/vim-rtags'
 " Markdown
 Plugin 'tpope/vim-markdown'
 
+" Brackets
+Plugin 'jiangmiao/auto-pairs'
+
+" i3config syntax highlighting
+Plugin 'mboughaba/i3config.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -107,4 +113,8 @@ hi! NonText ctermbg=NONE guibg=NONE ctermfg=NONE
 "set laststatus=2
 "let g:lightline = {'colorscheme': 'nord'}
 
-
+" i3config plugin
+aug i3config_ft_detection
+  au!
+  au BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
+aug end

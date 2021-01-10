@@ -370,8 +370,6 @@ libyaml
 licenses
 linux-api-headers
 linux-firmware
-linux-lts
-linux-lts-headers
 llvm-libs
 lm_sensors
 lolcat

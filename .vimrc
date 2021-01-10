@@ -40,15 +40,31 @@ Plugin 'ap/vim-css-color'
 " Nord theme
 Plugin 'arcticicestudio/nord-vim'
 
-"Airline
+" Airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" Lightline
+"Plugin 'itchyny/lightline.vim'
+
+
 " YouCompleteMe
-Plugin 'ycm-core/YouCompleteMe'
+" Plugin 'ycm-core/YouCompleteMe'
 
 " Polyglot
 Plugin 'sheerun/vim-polyglot'
+
+" Typescript
+Plugin 'leafgarland/typescript-vim'
+
+" Vim Manpage 
+Plugin 'vim-utils/vim-man'
+
+" For C++
+Plugin 'lyuts/vim-rtags'
+
+" Markdown
+Plugin 'tpope/vim-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -74,9 +90,9 @@ set expandtab
 set smartindent
 set nu
 set nowrap
-set smartcase
+" set smartcase
 set noswapfile
-set incsearch
+" set incsearch
 
 "colorscheme dracula
 colorscheme nord
@@ -86,3 +102,9 @@ let g:airline_powerline_fonts = 0
 " Background transparency
 hi! Normal ctermbg=NONE guibg=NONE
 hi! NonText ctermbg=NONE guibg=NONE ctermfg=NONE
+
+" Lightline config
+"set laststatus=2
+"let g:lightline = {'colorscheme': 'nord'}
+
+

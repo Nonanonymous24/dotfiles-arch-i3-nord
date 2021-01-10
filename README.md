@@ -1,5 +1,5 @@
 ## My nord theme setup for i3 based on Arch Linux
-*(Also, sorry I couldn't come up with a better name)*
+
 
 # Details
 
@@ -21,9 +21,11 @@ Clone this repository with:
 
 For Arch Linux users, use the package lists provided in the `package_list` folder to install necessary packages:
 
-`cd dotfiles-arch-i3-nord.git/package_list/`
-`sudo pacman -S --needed $(cat pacman_packages.txt)`
-`yay -S $(cat aur_packages.txt)`
+```
+cd dotfiles-arch-i3-nord.git/package_list/
+sudo pacman -S --needed $(cat pacman_packages.txt)
+yay -S $(cat aur_packages.txt)
+```
 
 Note: The package list is very extensive, so I would suggest to edit it accordingly.
 
@@ -101,3 +103,6 @@ To apply the spicetify theme:
 spicetify apply
 ```
 
+5. For polybar air quality index module:
+
+Follow [this](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/info-airqualityindex)

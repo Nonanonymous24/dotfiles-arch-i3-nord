@@ -57,14 +57,14 @@ a:hover {
 #social > a:hover {
     color: #d08770
 }
-#dev > a:hover {
-    color: #ebcb8b
+#email > a:hover {
+    color: #b48ead
 }
 #skills > a:hover {
     color: #a3be8c
 }
-#email > a:hover {
-    color: #b48ead
+#investment > a:hover {
+    color: #88c0d0
 }
 a:hover {
     color: #88c0d0
@@ -77,14 +77,14 @@ a:hover {
 #s {
     color: #d08770
 }
-#d {
-    color: #ebcb8b
+#e {
+    color: #b48ead
 }
 #l {
     color: #a3be8c
 }
-#e {
-    color: #b48ead
+#d {
+    color: #88c0d0
 }
 
 /*---------------------------------------------------------------------------------------------------------*/

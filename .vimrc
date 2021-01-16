@@ -18,6 +18,9 @@ Plugin 'tpope/vim-fugitive'
 " Commenting out lines
 Plugin 'tpope/vim-commentary'
 
+" IndentLine
+Plugin 'Yggdroot/indentLine'
+
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -72,7 +75,10 @@ Plugin 'jiangmiao/auto-pairs'
 " i3config syntax highlighting
 Plugin 'mboughaba/i3config.vim'
 
-" All of your Plugins must be added before the following line
+" Commenter
+" Plugin 'preservim/nerdcommenter'
+
+"All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -96,14 +102,21 @@ set expandtab
 set smartindent
 set nu
 set nowrap
-" set smartcase
+set smartcase
 set noswapfile
-" set incsearch
+set incsearch
 
 "colorscheme dracula
 colorscheme nord
 set background=dark
+
+" Airline config
 let g:airline_powerline_fonts = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " Background transparency
 hi! Normal ctermbg=NONE guibg=NONE
@@ -118,3 +131,10 @@ aug i3config_ft_detection
   au!
   au BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
 aug end
+
+" Nerd commenter settings
+let g:NERDCreateDefaultMappings = 1 " Create default mappings
+let g:NERDSpaceDelims = 1 " Add spaces after comment delimiters by default
+let g:NERDCompactSexyComs = 1 " Use compact syntax for prettified multi-line comments
+
+

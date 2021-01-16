@@ -713,3 +713,4 @@ zita-alsa-pcmi
 zita-resampler
 zlib
 zstd
+thefuck

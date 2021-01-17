@@ -714,3 +714,6 @@ zita-resampler
 zlib
 zstd
 thefuck
+zathura
+zathura-cb
+zathura-pdf-mupdf

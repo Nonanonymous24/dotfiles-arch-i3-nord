@@ -1,7 +1,7 @@
 #!/bin/sh
 
-TOKEN="8c50fc7aa3cfc4e2b2f2adfef4427510d4f0fa60"
-CITY="Nashik"
+TOKEN=""
+CITY=""
 
 API="https://api.waqi.info/feed"
 

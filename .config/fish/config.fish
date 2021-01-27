@@ -2,8 +2,12 @@
 set -U fish_greeting
 
 # Fortune
-fortune
+# fortune
 
+# Custom aliases
+alias cat='bat'
+
+# Color scheme
 set nord0 2e3440
 set nord1 3b4252
 set nord2 434c5e

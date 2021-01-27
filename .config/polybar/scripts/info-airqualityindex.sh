@@ -1,7 +1,7 @@
 #!/bin/sh
 
-TOKEN=""
-CITY=""
+TOKEN="YOUR_API_KEY"
+CITY="YOUR_CITY"
 
 API="https://api.waqi.info/feed"
 

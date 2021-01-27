@@ -158,7 +158,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Assign programs to workspaces
 assign [class="Alacritty"] $ws1
-assign[class="kitty"] $ws1
+assign [class="kitty"] $ws1
 assign [class="firefox"] $ws2
 assign [class="Brave-browser"] $ws2
 assign [class="qutebrowser"] $ws2
@@ -167,7 +167,7 @@ assign [class="Atom"] $ws3
 # Spotify has a bug
 for_window [class="Spotify"] move to workspace $ws4
 #assign [class="Steam"] $ws5
-#assign [class="discord"] $ws6
+assign [class="discord"] $ws5
 
 
 # reload the configuration file

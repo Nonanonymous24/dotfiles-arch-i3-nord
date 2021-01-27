@@ -6,6 +6,7 @@ set -U fish_greeting
 
 # Custom aliases
 alias cat='bat'
+alias ls='exa'
 
 # Color scheme
 set nord0 2e3440

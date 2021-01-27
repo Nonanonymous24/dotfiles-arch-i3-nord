@@ -718,3 +718,4 @@ zathura
 zathura-cb
 zathura-pdf-mupdf
 bat
+exa

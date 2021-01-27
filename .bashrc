@@ -14,5 +14,6 @@ PS1='[\u@\h \W]\$ '
 
 # Custom aliases
 alias cat='bat'
+alias ls='exa'
 
 exec fish

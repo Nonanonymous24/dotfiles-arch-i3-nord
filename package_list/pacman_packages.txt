@@ -717,3 +717,4 @@ thefuck
 zathura
 zathura-cb
 zathura-pdf-mupdf
+bat

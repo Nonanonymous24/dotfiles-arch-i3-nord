@@ -331,6 +331,6 @@ for_window [class="Yad" title="yad-calendar"] floating enable
 # Polybar launch script
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-# Lock (betterlockscreen (aur))
-exec betterlockscreen -u ~/Pictures/paul-gilmore-KT3WlrL_bsg-unsplash.jpg
-bindsym $mod+Shift+x exec betterlockscreen -l dimblur
+# Lock 
+# exec ~/./betterlockscreen -u ~/Pictures/paul-gilmore-KT3WlrL_bsg-unsplash.jpg
+bindsym $mod+Shift+x exec ~/betterlockscreen-12hr/./betterlockscreen -l dimblur

@@ -58,9 +58,9 @@ font-3 = Font Awesome 5 Free:pixelsize=10;1
 font-4 = Font Awesome 5 Free Solid:pixelsize=10;1
 font-5 = Font Awesome 5 Brands:pixelsize=10;1
 
-modules-left = i3 xwindow
+modules-left = i3 xwindow 
 modules-center =  
-modules-right = pulseaudio-control info-hackspeed pacman-updates redshift date eth powermenu
+modules-right = info-kernel pulseaudio-control info-hackspeed pacman-updates redshift date eth powermenu
 
 ;separator = |
 
@@ -196,7 +196,7 @@ label-urgent-padding = 2
 [module/pacman-updates]
 type = custom/script
 exec = checkupdates | wc -l
-interval = 1000
+interval = 100
 label = %output%
 format-background = #A3BE8C
 format-foreground = ${colors.text}
@@ -308,7 +308,7 @@ format-connected-padding = 1
 ;format-connected-underline = #5E81AC 
 ;format-connected-prefix = " "
 ;format-connected-prefix-foreground = ${colors.foreground}
-label-connected = " %local_ip% "
+label-connected = "%local_ip%"
 ; label-background = #81A1C1
 ; label-foreground = ${colors.text}
 ; label-padding = 1
@@ -330,12 +330,12 @@ date =
 date-alt = "%B %d, %Y"
 
 time = "%I:%M %p"
-time-alt = "%I:%M:%S %p"
+time-alt = " %I:%M:%S %p"
 
 format-background = #88C0D0
 format-foreground = ${colors.text}
 format-padding = 1
-format-prefix = " " 
+format-prefix = "" 
 format-prefix-foreground = ${colors.text}
 ;format-prefix-foreground = ${colors.foreground}
 ;format-underline = #81A1C1
@@ -443,7 +443,7 @@ expand-right = true
 ;format-spacing = 1
 ;format-background = #2E3440
 
-label-open = "  Exit"
+label-open = ""
 label-open-foreground = ${colors.text}
 label-close =  cancel
 label-close-foreground = ${colors.text}
@@ -479,6 +479,14 @@ scroll-up = source ~/.config/polybar/scripts/env.sh && ~/.config/polybar/scripts
 scroll-down = source ~/.config/polybar/scripts/env.sh && ~/.config/polybar/scripts/redshift.sh decrease
 interval=0.5
 format-background = #B48EAD
+format-foreground = ${colors.text}
+format-padding = 1
+
+[module/info-kernel]
+type = custom/script
+exec = echo " $(uname -nr)"
+interval = 1024
+format-background = #BF616A
 format-foreground = ${colors.text}
 format-padding = 1
 

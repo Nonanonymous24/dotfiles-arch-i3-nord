@@ -163,11 +163,10 @@ assign [class="firefox"] $ws2
 assign [class="Brave-browser"] $ws2
 assign [class="qutebrowser"] $ws2
 assign [class="Google-chrome"] $ws2
-assign [class="Atom"] $ws3
+assign [class="Thunar"] $ws3
 # Spotify has a bug
 for_window [class="Spotify"] move to workspace $ws4
 #assign [class="Steam"] $ws5
-assign [class="discord"] $ws5
 
 
 # reload the configuration file

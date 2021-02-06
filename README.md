@@ -106,3 +106,12 @@ spicetify apply
 5. For polybar air quality index module:
 
 Follow [this](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/info-airqualityindex)
+
+6. betterlockscreen
+
+I am using a fork of betterlockscreen. Run the following commands:
+
+'''
+git clone https://github.com/Nonanonymous24/betterlockscreen-12hr.git
+cd betterlockscreen-12hr
+'''

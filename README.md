@@ -47,12 +47,16 @@ bin/install --offline
 
 Restart your terminal and run the following commands:
 
-```
+``````
 fish_update_completions
 omf update
 omf install agnoster
-```
-
+omf install thefuck
+omf install weather
+omf install fish-spec
+omf install spark
+omf install vundle
+``````
 2. [tpm](https://github.com/tmux-plugins/tpm):
 
 To install tpm:

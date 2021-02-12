@@ -327,10 +327,10 @@ type = internal/date
 interval = 1
 
 date = 
-date-alt = "%B %d, %Y"
+date-alt = "%B %d, %Y "
 
 time = "%I:%M %p"
-time-alt = " %I:%M:%S %p"
+time-alt = "%I:%M:%S %p"
 
 format-background = #88C0D0
 format-foreground = ${colors.text}
@@ -341,7 +341,7 @@ format-prefix-foreground = ${colors.text}
 ;format-underline = #81A1C1
 ;format-background = #434C5E
 
-label = %date% %time%
+label = " %date%%time%"
 
 [module/pulseaudio-control]
 type = custom/script

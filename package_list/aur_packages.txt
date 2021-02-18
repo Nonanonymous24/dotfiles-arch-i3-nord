@@ -27,7 +27,6 @@ ttf-material-icons-git
 ttf-unifont
 ttfautohint
 tty-clock
-virtualbox-ext-oracle
 waffle
 wd719x-firmware
 yay

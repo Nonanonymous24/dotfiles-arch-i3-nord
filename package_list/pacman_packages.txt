@@ -172,9 +172,6 @@ util-linux
 util-linux-libs
 vim
 vim-runtime
-virtualbox
-virtualbox-guest-iso
-virtualbox-host-dkms
 vlc
 wget
 wireless_tools

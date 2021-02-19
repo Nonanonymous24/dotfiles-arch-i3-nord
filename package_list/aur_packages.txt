@@ -1,3 +1,4 @@
+upd72020x-fw
 aic94xx-firmware
 aurafetch-git
 cava

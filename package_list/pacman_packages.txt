@@ -39,6 +39,7 @@ inetutils
 intel-ucode
 jre-openjdk
 jre-openjdk-headless
+jq
 kitty
 kitty-terminfo
 linux

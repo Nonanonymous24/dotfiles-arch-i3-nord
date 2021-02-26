@@ -1,4 +1,3 @@
-upd72020x-fw
 aic94xx-firmware
 aurafetch-git
 cava
@@ -13,6 +12,7 @@ nerd-fonts-iosevka
 nerd-fonts-mononoki
 nerd-fonts-noto-sans-mono
 nerd-fonts-noto-sans-regular-complete
+nordic-theme
 ookla-speedtest-bin
 pfetch-git
 pipes.sh
@@ -21,14 +21,13 @@ pulseaudio-control
 siji-git
 spicetify-cli
 spotify
-thunar-sendto-clamtk
 ttf-google-fonts-typewolf
 ttf-icomoon-feather
 ttf-material-icons-git
 ttf-unifont
 ttfautohint
 tty-clock
+upd72020x-fw
 waffle
 wd719x-firmware
 yay
-zscroll-git

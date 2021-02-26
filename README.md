@@ -4,7 +4,7 @@
 # Details
 
 - **OS**: [Arch Linux](https://archlinux.org/)
-- **Kernel**: `linux-lts`
+- **Kernel**: `linux`
 - **WM**: [i3-gaps](https://github.com/Airblader/i3)
 - **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/), [Alacritty](https://github.com/alacritty/alacritty)
 - **Editor**: [Vim](https://www.vim.org/), [Atom](https://atom.io/)
@@ -85,16 +85,10 @@ vim .vimrc
 ```
 
 Run `:PluginInstall` to install all plugins. 
-If you want to install YouCompleteMe (commented out) correctly, run the following from your `~`:
-
-```
-cd ~/.vim/bundle/YouCompleteMe
-python3 install.py --all
-```
 
 4. [spicetify-cli](https://github.com/khanhas/spicetify-cli):
 
-First, to apply spicetify to spotify, we need to get write permission on spotify files:
+First, to apply spicetify to spotify, we need to get write permissions on spotify files:
 
 ```
 sudo chmod a+wr /opt/spotify
@@ -115,7 +109,16 @@ Follow [this](https://github.com/polybar/polybar-scripts/tree/master/polybar-scr
 
 I am using a fork of betterlockscreen. Run the following commands:
 
-'''
+``````
 git clone https://github.com/Nonanonymous24/betterlockscreen-12hr.git
 cd betterlockscreen-12hr
-'''
+``````
+
+To set the wallpaper as lockscreen:
+
+```
+cd betterlockscreen
+./betterlockscreen -u ~/Pictures/paul-gilmore-KT3WlrL_bsg-unsplash.jpg
+```
+Use Mod+Shift+X to lock desktop.
+

@@ -31,4 +31,3 @@ upd72020x-fw
 volantes-cursors
 waffle
 wd719x-firmware
-yay

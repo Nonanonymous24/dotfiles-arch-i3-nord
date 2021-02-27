@@ -42,6 +42,9 @@ jre-openjdk-headless
 jq
 kitty
 kitty-terminfo
+lightdm
+lightdm-webkit2-greeter
+lightdm-webkit-theme-litarvan
 linux
 linux-api-headers
 linux-firmware

@@ -1,4 +1,5 @@
 aic94xx-firmware
+alsi
 aurafetch-git
 cava
 cli-visualizer

@@ -122,3 +122,13 @@ cd betterlockscreen
 ```
 Use Mod+Shift+X to lock desktop.
 
+7. Setting the startpage and theme for chrome:
+
+Open google chrome and go to chrome://extensions. Enable developer mode and click on load unpacked.
+
+Navigate to `~/startpage_3/src` and click Open.
+
+To set the theme, drop the `.crx` file in the same page on chrome and enable the extension.
+
+
+`

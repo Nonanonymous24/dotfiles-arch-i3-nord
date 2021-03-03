@@ -1,5 +1,6 @@
 aic94xx-firmware
 alsi
+appimagelauncher-git
 aurafetch-git
 cava
 cli-visualizer

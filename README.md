@@ -11,7 +11,6 @@
 - **Browser**: [Google Chrome](https://www.google.com/intl/en_in/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - **File Manager**: [Ranger](https://github.com/ranger/ranger), [Thunar](https://docs.xfce.org/xfce/thunar/start)
 - **Bar**: [Polybar](https://github.com/polybar/polybar)
-- **GTK Theme**: Nordic
 
 # Installation
 
@@ -130,5 +129,12 @@ Navigate to `~/startpage_3/src` and click Open.
 
 To set the theme, drop the `.crx` file in the same page on chrome and enable the extension.
 
+8. Rofi theme:
 
-`
+After copying the config, copy the `nord.rasi` file in `/usr/share/rofi/themes` directory.
+
+Then run `rofi-theme-selector` from the terminal, scroll down to nord and hit `Enter`.
+
+You will get a preview of the theme. This theme has a dmenu-like positioning and I've been using it instead of dmenu as it is easy to run AppImages with rofi.
+
+If you like the theme and want to set it as default, hit `Alt`+`a`. 

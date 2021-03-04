@@ -1,18 +1,3 @@
-/*Nord theme */
-
-* {
-    font: "Mononoki Nerd Font 10";
-    foreground: #f8f8f2;
-    background-color: #2e3440;
-    active-background: #5e81ac;
-    urgent-background: #ff5555;
-    selected-background: @active-background;
-    selected-urgent-background: @urgent-background;
-    selected-active-background: @active-background;
-    separatorcolor: @active-background;
-    bordercolor: @active-background;
-}
-
 #window {
     background-color: @background;
     border:           1;
@@ -120,3 +105,4 @@
     margin:     0px 0.3em 0em 0em ;
     text-color: @foreground;
 }
+@import "/usr/share/rofi/themes/nord.rasi"

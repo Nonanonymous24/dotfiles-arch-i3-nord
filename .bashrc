@@ -12,8 +12,19 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+### DEFAULT CONFIG ENDS HERE
+
 # Custom aliases
 alias cat='bat'
 alias ls='exa'
+alias colortest='npx colortest'
 
+# For crontab
+export VISUAL=vim
+
+# Run fish shell 
 exec fish
+
+# For using thefuck in bash
+eval "$(thefuck --alias)"
+

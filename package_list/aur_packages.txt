@@ -31,6 +31,8 @@ ttf-unifont
 ttfautohint
 tty-clock
 upd72020x-fw
+uwu
+uwufetch
 volantes-cursors
 waffle
 wd719x-firmware

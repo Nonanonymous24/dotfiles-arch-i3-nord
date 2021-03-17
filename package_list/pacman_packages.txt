@@ -104,7 +104,7 @@ wpa_supplicant
 xdg-user-dirs
 xdg-utils
 xf86-input-libinput
-xf86-video-nouveau
+xorg
 xf86-video-vesa
 zathura
 zathura-cb

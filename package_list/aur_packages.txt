@@ -27,7 +27,6 @@ ttf-fork-awesome
 ttf-google-fonts-typewolf
 ttf-icomoon-feather
 ttf-material-icons-git
-ttf-unifont
 ttfautohint
 tty-clock
 upd72020x-fw

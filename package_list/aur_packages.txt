@@ -4,6 +4,7 @@ appimagelauncher-git
 aurafetch-git
 cava
 cli-visualizer
+downgrade
 fet.sh-git
 google-chrome
 google-drive-ocamlfuse

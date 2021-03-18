@@ -42,10 +42,6 @@ jre-openjdk-headless
 jq
 kitty
 kitty-terminfo
-linux
-linux-api-headers
-linux-firmware
-linux-headers
 ltrace
 lxappearance
 mtools
@@ -104,8 +100,8 @@ wpa_supplicant
 xdg-user-dirs
 xdg-utils
 xf86-input-libinput
-xorg
 xf86-video-vesa
+xorg
 zathura
 zathura-cb
 zathura-pdf-mupdf

@@ -19,6 +19,12 @@ alias cat='bat'
 alias ls='exa'
 alias colortest='npx colortest'
 
+# ssh problems in kitty terminal
+if [ $TERM == "xterm-kitty" ];then
+    alias ssh='kitty +kitten ssh'
+fi
+
+
 # For crontab
 export VISUAL=vim
 
@@ -28,3 +34,4 @@ exec fish
 # For using thefuck in bash
 eval "$(thefuck --alias)"
 
+export PATH="/root/.cargo/bin:$PATH"

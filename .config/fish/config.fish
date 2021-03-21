@@ -15,6 +15,12 @@ alias cat='bat'
 alias ls='exa'
 alias colortest='npx colortest'
 
+# ssh problems with kitty
+
+if test $TERM = "xterm-kitty";
+    alias ssh='kitty +kitten ssh'
+end
+
 # set nord0 2e3440
 # set nord1 3b4252
 # set nord2 434c5e

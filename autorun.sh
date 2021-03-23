@@ -192,7 +192,7 @@ if [ -d $BLS ]; then
     mv -v $BLS $BACKUP
 fi
 
-git clone htttps://github.com/Nonanonymous24/betterlockscreen-12hr.git $BLS
+git clone https://github.com/Nonanonymous24/betterlockscreen-12hr.git $BLS
 
 # startpage_3
 if [ -d $SP ]; then

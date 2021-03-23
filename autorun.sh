@@ -72,35 +72,35 @@ if [ -d $ALACRITTY ]; then
     mv -v $ALACRITTY $BACKUP
 fi
 
-cp -rv $DOT/.config/alacritty $CONFIG
+cp -rsv $DOT/.config/alacritty $CONFIG
 
 # bat
 if [ -d $BAT ]; then
     mv -v $BAT $BACKUP
 fi
 
-cp -rv $DOT/.config/bat $CONFIG
+cp -rsv $DOT/.config/bat $CONFIG
 
 # cava
 if [ -d $CAVA ]; then
     mv -v $CAVA $BACKUP
 fi
 
-cp -rv $DOT/.config/cava $CONFIG
+cp -rsv $DOT/.config/cava $CONFIG
 
 # dunst
 if [ -d $DUNST ]; then
     mv -v $DUNST $BACKUP
 fi
 
-cp -rv $DOT/.config/dunst $CONFIG
+cp -rsv $DOT/.config/dunst $CONFIG
 
 # fish
 if [ -d $FISH ]; then
     mv -v $FISH $BACKUP
 fi
 
-cp -rv $DOT/.config/fish $CONFIG
+cp -rsv $DOT/.config/fish $CONFIG
 
 # installing omf
 if [ -d "$HOME/oh-my-fish" ]; then
@@ -123,42 +123,42 @@ if [ -d $I3 ]; then
     mv -v $I3 $BACKUP
 fi
 
-cp -rv $DOT/.config/i3 $CONFIG
+cp -rsv $DOT/.config/i3 $CONFIG
 
 # i3blocks
 if [ -d $I3B ]; then
     mv -v $I3B $BACKUP
 fi
 
-cp -rv $DOT/.config/i3blocks $CONFIG
+cp -rsv $DOT/.config/i3blocks $CONFIG
 
 # i3status
 if [ -d $I3S ]; then
     mv -v $I3S $BACKUP
 fi
 
-cp -rv $DOT/.config/i3status $CONFIG
+cp -rsv $DOT/.config/i3status $CONFIG
 
 # kitty
 if [ -d $KITTY ]; then
     mv -v $KITTY $BACKUP
 fi
 
-cp -rv $DOT/.config/kitty $CONFIG
+cp -rsv $DOT/.config/kitty $CONFIG
 
 # polybar
 if [ -d $PB ]; then
     mv -v $PB $BACKUP
 fi
 
-cp -rv $DOT/.config/polybar $CONFIG
+cp -rsv $DOT/.config/polybar $CONFIG
 
 # rofi
 if [ -d $ROFI ]; then
     mv -v $ROFI $BACKUP
 fi
 
-cp -rv $DOT/.config/rofi $CONFIG
+cp -rsv $DOT/.config/rofi $CONFIG
 
 sudo cp -rv $DOT/nord.rasi /usr/share/rofi/themes/
 
@@ -167,7 +167,7 @@ if [ -d $SPTFY ]; then
     mv -v $SPTFY $BACKUP
 fi
 
-cp -rv $DOT/.config/spicetify $CONFIG
+cp -rsv $DOT/.config/spicetify $CONFIG
 
 sudo chmod -v a+wr /opt/spotify
 sudo chmod -v a+wr /opt/spotify/Apps -R
@@ -179,14 +179,14 @@ if [ -d $VIS ]; then
     mv -v $VIS $BACKUP
 fi
 
-cp -rv $DOT/.config/vis $CONFIG
+cp -rsv $DOT/.config/vis $CONFIG
 
 # zathura
 if [ -d $ZT ]; then
     mv -v $ZT $BACKUP
 fi
 
-cp -rv $DOT/.config/zathura $CONFIG
+cp -rsv $DOT/.config/zathura $CONFIG
 
 # betterlockscreen-12hr
 if [ -d $BLS ]; then
@@ -200,7 +200,7 @@ if [ -d $SP ]; then
     mv -v $SP $BACKUP
 fi
 
-cp -rv $DOT/chrome_nord_theme.crx $HOME
+cp -rsv $DOT/chrome_nord_theme.crx $HOME
 
 # Wallpaper
 if [ -d $PIC ]; then
@@ -217,14 +217,14 @@ if [ -f $BASHRC ]; then
     mv -v $BASHRC $BACKUP
 fi
 
-cp -rv $DOT/.bashrc $HOME
+cp -rsv $DOT/.bashrc $HOME
 
 # tmux
 if [ -f $TMUX ]; then
     mv -v $TMUX $BACKUP
 fi
 
-cp -rv $DOT/.tmux.conf $HOME
+cp -rsv $DOT/.tmux.conf $HOME
 
 ## install tpm
 if [ -d "$HOME/.tmux" ]; then
@@ -238,7 +238,7 @@ if [ -f $VIMRC ]; then
     mv -v $VIMRC $BACKUP
 fi
 
-cp -rv $DOT/.vimrc $HOME
+cp -rsv $DOT/.vimrc $HOME
 
 ## vim plugins 
 if [ -d "$HOME/.vim" ]; then

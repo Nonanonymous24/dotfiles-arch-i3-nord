@@ -14,6 +14,8 @@
 
 # Installation
 
+You can use the install script that I made. It creates a backup of your current config and just copies the files to the directories (no symlinks). 
+
 Clone this repository with:
 
 `git clone https://github.com/Nonanonymous24/dotfiles-arch-i3-nord.git`

@@ -110,7 +110,7 @@ fi
 git clone https://github.com/oh-my-fish/oh-my-fish $HOME/oh-my-fish
 fish -c "$HOME/oh-my-fish/bin/install --offline"
 
-fish -c fish_update_completions
+fish -c "fish_update_completions"
 fish -c "omf update"
 fish -c "omf install agnoster"
 fish -c "omf install thefuck"
@@ -247,6 +247,7 @@ fi
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 
 fish -c "omf install vundle"
+fish -c "vundle"
 
 uwu
 

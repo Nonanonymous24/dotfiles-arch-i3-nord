@@ -108,8 +108,7 @@ if [ -d "$HOME/oh-my-fish" ]; then
 fi
 
 git clone https://github.com/oh-my-fish/oh-my-fish $HOME/oh-my-fish
-cd $HOME/oh-my-fish
-bin/install --offline
+fish -c $HOME/oh-my-fish/bin/install --offline
 
 fish -c fish_update_completions
 fish -c omf update

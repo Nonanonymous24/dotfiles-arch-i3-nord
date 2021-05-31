@@ -47,6 +47,9 @@ Plugin 'arcticicestudio/nord-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" Devicons
+Plugin 'ryanoasis/vim-devicons'
+
 " Lightline
 "Plugin 'itchyny/lightline.vim'
 
@@ -119,6 +122,10 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'unique_tail'
+
+" devicons break statusline
+let g:webdevicons_enable_airline_statusline = 0
+
 
 " Background transparency
 hi! Normal ctermbg=NONE guibg=NONE

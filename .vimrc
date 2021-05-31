@@ -107,7 +107,7 @@ set nowrap
 set smartcase
 set noswapfile
 set incsearch
-
+set mouse=a
 "colorscheme dracula
 colorscheme nord
 set background=dark
@@ -135,9 +135,9 @@ aug i3config_ft_detection
 aug end
 
 " Nerd commenter settings
-let g:NERDCreateDefaultMappings = 1 " Create default mappings
-let g:NERDSpaceDelims = 1 " Add spaces after comment delimiters by default
-let g:NERDCompactSexyComs = 1 " Use compact syntax for prettified multi-line comments
+" let g:NERDCreateDefaultMappings = 1 " Create default mappings
+" let g:NERDSpaceDelims = 1 " Add spaces after comment delimiters by default
+" let g:NERDCompactSexyComs = 1 " Use compact syntax for prettified multi-line comments
 
 " TextEdit might fail if hidden is not set.
 set hidden
